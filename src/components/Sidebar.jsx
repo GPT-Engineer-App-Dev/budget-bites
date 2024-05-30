@@ -2,7 +2,7 @@ import { Box, Heading, VStack, Link } from "@chakra-ui/react";
 
 const Sidebar = () => {
   return (
-    <Box bg="gray.100" p={4} borderRadius="md">
+    <Box bg="#fff1e5" p={4} borderRadius="md">
       <Heading size="md" mb={4}>Trending Articles</Heading>
       <VStack align="start" spacing={2}>
         <Link href="#">Article 1</Link>
